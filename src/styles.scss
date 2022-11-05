@@ -4,4 +4,40 @@
 html, body {
     background-color: black;
     height: 100%;
+    font-family: 'Ubuntu';
+}
+
+.nav-bar {
+    display: flex;
+}
+
+.page {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.small {
+    font-size: 16px;
+    text-align: center;
+    color: #DBDBDB;
+    font-weight: 300;   
+}
+
+.title {
+    font-size: 32px;
+    line-height: 31px;
+    text-align: center;
+    color: white;
+
+    .yellow {
+        color: #f0dc46;
+    }
+}
+
+.footer {
+    display: flex;
+    justify-content: space-between;
 }
