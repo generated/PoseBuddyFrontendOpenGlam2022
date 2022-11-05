@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="15.75" height="13.75" viewBox="0 0 15.75 13.75">
+  <g id="camera" transform="translate(-0.125 -1.125)">
+    <circle id="Ellipse_43" data-name="Ellipse 43" cx="3.5" cy="3.5" r="3.5" transform="translate(5.5 5.5)" fill="none" stroke="#181818" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="0.75"/>
+    <line id="Line_7" data-name="Line 7" x2="1" transform="translate(2.5 5.5)" fill="none" stroke="#181818" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="0.75"/>
+    <path id="Path_53" data-name="Path 53" d="M14.5,3.5h-2l-1-2h-5l-1,2h-4a1,1,0,0,0-1,1v9a1,1,0,0,0,1,1h13a1,1,0,0,0,1-1v-9A1,1,0,0,0,14.5,3.5Z" fill="none" stroke="#181818" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="0.75"/>
+  </g>
+</svg>
