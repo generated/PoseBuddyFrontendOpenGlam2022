@@ -1,16 +1,22 @@
-<div id="app">
-
+<div class="container">
+  <div id="app" class="center">
     <div>
-  
-      <div><video #video id="video" width="640" height="480" autoplay></video></div>
-      <div><button id="snap" (click)="capture()">Snap Photo</button></div>
+      <div>
+        <video #video id="video" width="640" height="480" autoplay></video>
+      </div>
+      <div class="center">
+        <button id="snap" class="button-style" (click)="capture()">
+          <img src="../../assets/camera.svg" alt="camera" style="margin-right: 0.5rem; margin-top: -0.4rem;">
+          Take a picture
+        </button>
+      </div>
       <canvas #canvas id="canvas" width="640" height="480"></canvas>
       <ul>
         <li *ngFor="let c of captures">
           <img src="{{ c }}" height="50" />
         </li>
       </ul>
-    </div>
-  
+    </div>  
   </div>
+</div>
   

@@ -31,6 +31,7 @@ html, body {
     line-height: 31px;
     text-align: center;
     color: white;
+    margin-top: 1rem;
 
     .yellow {
         color: #f0dc46;
@@ -40,4 +41,20 @@ html, body {
 .footer {
     display: flex;
     justify-content: space-between;
+}
+
+.center {
+    margin-top: 5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.button-style {
+    background-color: #f0dc46;
+    color: black;
+    border: 2px solid #f0dc46;
+    border-radius: 8px;
+    height: 36px;
+    padding: 0 1rem 0 1rem;
 }
